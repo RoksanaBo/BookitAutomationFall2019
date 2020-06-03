@@ -21,6 +21,7 @@ public class SelfStepDefinitions {
      */
     @Then("user verifies that information displays correctly:")
     public void user_verifies_that_information_displays_correctly(List<Map<String, String>> dataTable) {
+
         System.out.println("###############[UI validations]###############");
 
         String fullName = dataTable.get(0).get("first-name") +" "+dataTable.get(0).get("last-name");
